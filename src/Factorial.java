@@ -7,7 +7,7 @@ public class Factorial {
         if(n == 1){
             return 1; //base case
         }else {
-            return factorial(n-1) * n;
+            return factorial(n-1) * n; //Recursive Case
         }
     }
 }

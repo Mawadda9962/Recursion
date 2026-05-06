@@ -4,10 +4,10 @@ public class CountX {
             return 0; //Base Case
 
         }
-        char firstChar = str.charAt(0); //Check the first character
+        char firstChar = str.charAt(0); //Checking the first character
         String remaining = str.substring(1); //Get the remaining substring
 
-        if (firstChar == 'x'){
+        if (firstChar == 'x'){//
 
         }
 

@@ -3,6 +3,10 @@ public class Count7 {
         if(n == 0){
             return 0;//Base Case
         }
+        int lastDigit = n % 10; // Getting the last digit using
+        int removeDigit = n / 10;
+
+        if(lastDigit == )
 
     }
 }

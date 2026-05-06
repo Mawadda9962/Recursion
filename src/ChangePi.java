@@ -10,6 +10,8 @@ public class ChangePi {
         }else{
             str.charAt(0);
         }
+        char firstChar = str.charAt(0);
+        return firstChar + changePi(str.substring(1));
 
     }
 

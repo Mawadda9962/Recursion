@@ -9,7 +9,9 @@ public class BunnyEars {
         if(n == 1){
             return 1;// Base Case
         }else if (n % 2 == 0){
-            return
+            return 3 + bunnyEars2(n-1);
+        }else{
+
         }
     }
 }

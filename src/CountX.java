@@ -5,7 +5,7 @@ public class CountX {
 
         }
         char firstChar = str.charAt(0); //Checking the first character
-        String remaining = str.substring(1); //Get the remaining substring
+        String remaining = str.substring(1); //Getting the remaining substring
 
         if (firstChar == 'x'){//
 

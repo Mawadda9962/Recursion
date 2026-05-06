@@ -1,5 +1,10 @@
 public class CountX {
-    public String countX(String str){
+    public int countX(String str){
+        if (str.length() == 0){
+            return 0; //Base Case
+
+        }
+
 
     }
 

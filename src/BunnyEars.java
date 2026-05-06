@@ -11,9 +11,7 @@ public class BunnyEars {
         }else if (n % 2 == 0){
             return 3 + bunnyEars2(n-1); // Checking the bunny number is even
         }else{
-            return 2 + bunnyEars2(n-1);
-
-
+            return 2 + bunnyEars2(n-1);// Checking the bunny number is odd
         }
     }
 }

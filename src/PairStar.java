@@ -6,10 +6,10 @@ public class PairStar {
          char firstChar = str.charAt(0);
          char nextChar = str.charAt(1);
 
-        if (str.charAt(0) == str.charAt(1)){ //Checking the first char and next char
-            return str.charAt(0) + "*" + str.charAt(1);
+        if (firstChar == nextChar){ //Checking the first char and next char
+            return firstChar + "*" + nextChar;
         }else{
-            return
+            return firstChar + pairStar(str);
         }
     }
 }

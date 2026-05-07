@@ -4,7 +4,6 @@ public class BunnyEars2 {
             return 0;
         }
         return 2 + bunnyEars(n-1); //recursive Base
-
     }
 
 }

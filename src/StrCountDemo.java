@@ -1,5 +1,7 @@
 public class StrCountDemo {
     public static void main(String[] args){
-        StrCountDemo strCountDemo = new StrCountDemo(); //Creating an object
+        StrCount strCount = new StrCount(); //Creating an object
+        System.out.println(strCount.strCount(("catcowcat"), ("cat")));
+
     }
 }

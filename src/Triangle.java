@@ -3,6 +3,7 @@ public class Triangle {
         if(n == 0){
             return 0; //Base Case
         }
+        return n + triangle(n-1); //recursive Case
 
     }
 }

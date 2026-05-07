@@ -5,6 +5,5 @@ public class PairStarDemo {
 
         System.out.println(pairStar.pairStar( "hello")); //Calling the method
 
-
     }
 }

@@ -7,9 +7,9 @@ public class PairStar {
          char nextChar = str.charAt(1);
 
         if (firstChar == nextChar){ //Checking the first char and next char
-            return firstChar + "*" + nextChar;
+            return firstChar + "*" + pairStar(str.substring(1));
         }else{
-            return firstChar + pairStar(str);
+            return firstChar + pairStar(str.substring(1));
         }
     }
 }

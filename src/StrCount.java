@@ -7,7 +7,8 @@ public class StrCount {
        if (str.substring(0,2) == sub){
            return 1 + strCount(str.substring(sub.length()),sub);
        }else {
-//
+           return strCount(str.substring(1),)
+
        }
 
     }

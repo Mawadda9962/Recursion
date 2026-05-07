@@ -1,3 +1,5 @@
 public class Triangle {
-    public pv
+    public int triangle(int n){
+
+    }
 }

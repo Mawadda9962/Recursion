@@ -5,6 +5,10 @@ public class Array11 {
             return 0;
         }
 
+        if(nums[index] == 11){ //Checking the current element using nums[index]
+            return 1 + array11(nums,index +1);
+        }
+
     }
 
 }

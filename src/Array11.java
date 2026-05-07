@@ -8,6 +8,9 @@ public class Array11 {
         if(nums[index] == 11){ //Checking the current element using nums[index]
             return 1 + array11(nums,index +1);
         }
+        else{
+            return array11(nums,index + 1);
+        }
 
     }
 

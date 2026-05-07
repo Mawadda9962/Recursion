@@ -4,6 +4,5 @@ public class Triangle {
             return 0; //Base Case
         }
         return n + triangle(n-1); //recursive Case
-
     }
 }

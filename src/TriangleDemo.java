@@ -3,5 +3,5 @@ public class TriangleDemo {
         Triangle triangle = new Triangle(); // Creating an object of the Triangle class
         System.out.println(triangle.triangle(2)); //testing the method
 
-    }
+    }/
 }
